@@ -1,0 +1,15 @@
+#article section{
+    width: 1080px;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+}
+.about{
+    background-color: aquamarine;
+}
+.about-title{
+    width: 40%;
+}
+.about-detail{
+    width: 60%;
+}

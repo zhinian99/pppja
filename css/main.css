@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    -moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	-ms-box-sizing:border-box;
+}
+body{
+    color: #666;
+    font-size: 13px;
+    font-weight: normal;
+    background-color: #fff;
+}
+ul {
+    margin:0px;
+    padding:0px;
+ }
+ li {
+     list-style: none;
+ }
+ ul ul {
+     margin:0px;
+     padding:0px;
+ }
