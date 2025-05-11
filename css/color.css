@@ -6,7 +6,6 @@
 .top_location_wrap p i,
 .top_ui_element ul li i,
 .top_ui_element ul li:hover a,
-.main_navigation ul > li:hover > a,
 .ct_banner_caption h4 > span,
 .get_icon_des a,
 .course_author a:hover,
@@ -17,7 +16,6 @@
 .ct_learn_more h4 span,
 .ct_news_wrap h5 > a:hover,
 .footer_col_1 span,
-.foo_col_4 ul li,
 .copyright_text a,
 .ct_main_event_wrap h5 span,
 .ct_main_event_wrap ul.event_location_list li:nth-child(2n),
@@ -35,9 +33,15 @@
 .ct_popular_course > ul > li:hover .ct_proj_des > a,
 .ct_hreg_wrap ul.countdown li span
 {
-	color:#90a94c;	
+	color:#7abaff;	
 }
-
+.main_navigation ul > li:hover > a{
+	background-color: #5f91c7;
+	color: #ffffff;
+}
+.foo_col_4 ul li{
+	color: #fffeab;
+}
 
 
 /*
@@ -74,7 +78,7 @@
 .ct_hreg_wrap > a:hover,
 .ct_banner_caption > a.active
 {
-	background-color:#90a94c;	
+	background-color:#7abaff;	
 }
 
 
@@ -99,7 +103,7 @@
 .ct_pagination ul li a:hover,
 .ct_hreg_wrap > a:hover
 {
-	border-color:#90a94c;	
+	border-color:#7abaff;	
 }
 
 
@@ -185,14 +189,14 @@
 	  ============================================================
 */
 ::selection {
-    background: #90a94c;
+    background: #7abaff;
     color:#ffffff;
 }
 ::-webkit-selection {
-    background: #90a94c;
+    background: #7abaff;
     color: #ffffff;
 }
 ::-moz-selection {
-    background: #90a94c;
+    background: #7abaff;
     color: #ffffff;
 }

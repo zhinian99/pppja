@@ -25,11 +25,13 @@ section{
 	float:left;
 	width:100%;
 	position:relative;
-	background-color:#222222;
+	background-color:#345d7e;
 	padding:20px 0px;
     line-height: 20px;
 }
 .top_location_wrap{
+	display: flex;
+    align-items: center;
 	float:left;
 	width:auto;
 	position:relative;	
@@ -38,7 +40,7 @@ section{
 	color:#fff;
 	margin:0px;
 	font-family: 'Montserrat', sans-serif;
-	font-size:12px;
+	/* font-size:12px; */
 	font-weight:300;	
 }
 .top_location_wrap p i{
@@ -56,10 +58,10 @@ section{
 .top_ui_element ul li{
 	position:relative;
 	color:#fff;
-	display:inline-block;
+	/* display:inline-block; */
 	font-family: 'Montserrat', sans-serif;
-	padding:0px 15px;
-	font-size:12px;
+	padding:7px;
+	/* font-size:12px; */
 	font-weight:300;
 	letter-spacing:1.4px;
 }
@@ -77,10 +79,10 @@ section{
 	float:left;
 	width:100%;
 	position:relative;
-	padding:15px 0px;	
+	/* padding:15px 0px;	 */
 }
 .main_navigation{
-	float:right;
+	float:left;
 	width:auto;	
 }
 .main_navigation ul{
@@ -97,8 +99,8 @@ section{
 	text-transform:uppercase;
 	padding:0px 20px;
 	font-weight:700;
-	font-size:14px;
-	line-height: 80px;
+	/* font-size:14px; */
+	line-height: 70px;
 }
 .main_navigation ul li a span{
 	display:block;
@@ -143,7 +145,7 @@ section{
 	display:block;	
 }
 .logo_wrap img{
-    height: 80px;
+    height: 68px;
 }
 
 .banner_outer_wrap{
@@ -389,11 +391,17 @@ section{
 	float: left;
 	width: 100%;
 	position: relative;
-	background-color: #222222;
+	background-color: #345d7e;
 	padding: 50px 0px;
 	font-family: 'Open Sans', sans-serif;
 }
-
+.ct_footer_bg h4{
+	color: #fff;
+	font-size: 20px;
+}
+.ct_footer_bg a{
+	color: #fffeab;
+}
 .ct_course_list_wrap{
 	margin:0px 0px 30px;	
 }
@@ -458,6 +466,7 @@ section{
 .popular_course_des{
 	float:left;
 	width:100%;
+	height: 170px;
 	position:relative;
 	padding:30px 25px 15px;
 	background-color:#f8f9f8;
@@ -466,4 +475,31 @@ section{
 	text-transform:uppercase;
 	margin:0px 0px 15px;
 	display:block;	
+	color: #345d7e;
+}
+
+.get_started_outer_wrap{
+	/* background: url("../images/company.png") center no-repeat; */
+	background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)),
+url('../images/company.png') center/cover no-repeat;
+	padding: 15px 0;
+	/* width: 100%; */
+}
+.foo_col_4 ul li a{
+	margin-left: 10px;
+}
+.get_started_content_wrap p {
+	text-indent: 2em;
+}
+.home section:nth-child(even) {
+	background-color: #f2f2f2;
+}
+.equipment thead {
+	background-color: #0c769e;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #bdd7ee;
+}
+.table-striped>tbody>tr:nth-of-type(even) {
+    background-color: #ddebf7;
 }
