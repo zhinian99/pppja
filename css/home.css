@@ -503,3 +503,7 @@ url('../images/company.png') center/cover no-repeat;
 .table-striped>tbody>tr:nth-of-type(even) {
     background-color: #ddebf7;
 }
+.equipment td, .equipment th{
+	text-align: center;
+	letter-spacing: 4px;
+}
